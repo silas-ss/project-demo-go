@@ -10,7 +10,7 @@ import (
 	"github.com/gorilla/mux"
 
 	"github.com/silas-ss/ms-company/api/models"
-	"github.com/silas-ss/ms-company/api/responses"
+	"github.com/silas-ss/ms-company/api/helpers"
 )
 
 func (server *Server) CreateCompany(w http.ResponseWriter, r *http.Request) {
